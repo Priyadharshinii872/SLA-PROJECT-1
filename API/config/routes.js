@@ -19,6 +19,7 @@ let routes = (app) => {
   //reg
   router.post('/reg',reg_functions.reg)
   router.post('/regagg',reg_functions.regagg)
+  router.post('/filesave',reg_functions.filesave)
 
   //login
   router.post('/login',login_functions.lg)
